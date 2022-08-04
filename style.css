@@ -16,18 +16,14 @@ ul {
     list-style: none;
 }
 
-.carousel {
-    position: relative;
-    overflow: hidden;
-    background: cyan;
-}
-
 .carousel_slider {
     position: relative;
     display: flex;
     align-items: center;
     width: 80vw;
-    height: 200px;
+    height: 120px;
+    overflow: hidden;
+    background: cyan;
 }
 .carousel_list {
     position: absolute;
